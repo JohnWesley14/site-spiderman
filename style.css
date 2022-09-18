@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background: black;
+}
+.all{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.Info-Text{
+    position: absolute;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Info-Image-Spider{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    width: 40vw;
+    height: 70vh;
+}
+h1{
+    color: #fff;
+}
+span{
+    color: rgb(196, 1, 1);
+}
+.Info-Text{
+    width: 40vw;
+    height: 60vh;
+}
+
+.Spider-Person{
+    width: 400px;
+    height: 400px;
+}
+.Nav-Logo{
+    width: 130px;
+    height: 70px;
+    cursor: pointer;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 10px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Aranha-Logo{
+    width: 100px;
+    height: 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.Nav-a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.Info-Links{
+    margin-top: 30px;
+    padding: 5px;
+}
+.Info-a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid rgb(120,20,30);
+    padding: 10px;
+    border-radius: 5px;
+}
+.Nav-a:hover{
+    color: rgb(40,130,150);
+}
